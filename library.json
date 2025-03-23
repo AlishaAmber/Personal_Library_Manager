@@ -1,0 +1,34 @@
+[
+  {
+    "title":"Code & Language",
+    "author": "Dr. Alan Verbatim",
+    "publication_year": 2023,
+    "genre": "Computational Linguistics",
+    "read_status": false,
+    "added_data": "2025-03-22 3:44:46"
+  },
+  {
+    "title":"Decode the Words",
+    "author": "Olivia Cipher",
+    "publication_year": 2023,
+    "genre": "Data Science & NLP",
+    "read_status": true,
+    "added_data": "2025-03-22 3:54:46" 
+  },
+  {
+    "title":"LexiCode",
+    "author": "Marcus Byte",
+    "publication_year": 2022,
+    "genre": "Programming & AI",
+    "read_status": false,
+    "added_data": "2025-03-22 3:54:46" 
+  },
+  {
+    "title":"The Syntax Chronicles",
+    "author": "Isabelle Font",
+    "publication_year": 2020,
+    "genre": "Computational Grammar",
+    "read_status": true,
+    "added_data": "2025-03-22 3:54:46" 
+  }
+]
