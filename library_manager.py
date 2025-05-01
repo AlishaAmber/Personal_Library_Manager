@@ -396,7 +396,7 @@ elif st.session_state.current_view =="stats":
         with col2:
             st.metric("Book Read", stats['read_books'])
         with col3:
-        st.metric("Percentage Read", f"{stats['percentage_read']:.1f}%")
+            st.metric("Percentage Read", f"{stats['percentage_read']:.1f}%")
         create_visualization()
 
         if stats['authors']:
