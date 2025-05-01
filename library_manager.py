@@ -339,9 +339,9 @@ elif st.session_state.current_view == "library":
 
             col1,col2=st.columns(2)
             with col1:
-                    if st.button(f"Remove", key=f"remove_{i}", use_container_width=True)
+                if st.button(f"Remove", key=f"remove_{i}", use_container_width=True):
                     if remove_book(i):
-                    st.rerun()
+                        st.rerun()
             with col2:
                     new_stats = not book['read_status']
                     status_label = "Mark as read" if not book['read_status'] else "Mark as Unread"
@@ -396,7 +396,7 @@ elif st.session_state.current_view =="stats":
         with col2:
             st.metric("Book Read", stats['read_books'])
         with col3:
-        st.metric("Percentage Read", f"{stats['percentage_read']:.1f}%")
+            st.metric("Percentage Read", f"{stats['percentage_read']:.1f}%")
         create_visualization()
 
         if stats['authors']:
